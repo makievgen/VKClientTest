@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VKClientMiddleTest</string>
+
+    <integer name="com_vk_sdk_AppId">5572067</integer>
+
+    <string name="no_internet">No internet connection!</string>
+    <string name="success">List successfully downloaded!</string>
+    <string name="error">Undefined error!</string>
+    <string name="enter_message">Your message</string>
+    <string name="send">Send</string>
+
+</resources>

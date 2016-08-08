@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    android:id="@+id/grid_dialog"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recycler_item_background"
+    android:padding="8dp"
+    app:alignmentMode="alignBounds"
+    app:columnCount="3"
+    app:rowCount="2">
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="4dp"
+        android:src="@android:mipmap/sym_def_app_icon"
+        app:layout_columnSpan="1"
+        app:layout_rowSpan="2"
+        />
+
+    <TextView
+        android:id="@+id/text_friend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:text="Машина времени Машина времени"
+        android:textColor="@color/colorTitle"
+        android:textSize="15sp"
+        app:layout_columnWeight="1"
+        />
+
+    <TextView
+        android:id="@+id/text_last_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="4dp"
+        android:text="19:12"
+        android:textColor="@color/colorSimpleText"
+        android:textSize="14sp"
+        app:layout_columnWeight="0.5"
+        />
+
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:text="TExt text text text"
+        android:textColor="@color/colorSimpleText"
+        android:textSize="14sp"
+        app:layout_columnSpan="2"
+        app:layout_columnWeight="1"
+        />
+
+
+</android.support.v7.widget.GridLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#507CAF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#313743</color>
+    <color name="colorGreyBackground">#E3E4E6</color>
+    <color name="colorWhiteBackground">#FFFFFF</color>
+    <color name="colorUnreadMessagesBackground">#F1F4F8</color>
+    <color name="colorCountUnreadMessages">#899AAD</color>
+    <!--dialog-->
+    <color name="colorDialogBackground">#E6EBF0</color>
+    <color name="colorClouds">#E5F5FF</color>
+
+    <color name="colorTitle">#000000</color>
+    <color name="colorSimpleText">#7D7D7D</color>
+</resources>
